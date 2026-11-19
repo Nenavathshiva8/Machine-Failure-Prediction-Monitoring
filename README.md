@@ -298,15 +298,3 @@ machine-failure-prediction/
 ├── README.md
 └── .gitignore
 ```
-
-## 14. Future Improvements
-
-- Add SHAP-based explainability to the dashboard (per-prediction
-  explanation of *why* a machine was flagged)
-- Add authentication to the API before any real deployment
-- Add a scheduled retraining job when new labeled data accumulates
-- Multi-class prediction of the specific failure mode (TWF/HDF/PWF/OSF),
-  not just binary failure/no-failure
-- Add Prometheus/Grafana for infrastructure-level monitoring alongside
-  the model-level Streamlit dashboard
-- CI pipeline (GitHub Actions) to run `pytest` on every push
